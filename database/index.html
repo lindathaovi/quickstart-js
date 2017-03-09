@@ -45,16 +45,19 @@
   <link rel="stylesheet" href="main.css">
 
   <!-- Firebase -->
-  <!-- *******************************************************************************
-       * TODO(DEVELOPER): Paste the initialization snippet by navigating to:
 
-        https://console.firebase.google.com
-
-       and choosing a project you've created.  Then click the red HTML logo at the top
-       right of the page with the caption "Add Firebase to your web app".
-
-       Copy the snippet that appears in place of this comment.
-       *************************************************************************** -->
+  <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyD37nzkFwOLCEPENAXQbFQ5SaNeZQEn_EI",
+      authDomain: "socialcue-e1175.firebaseapp.com",
+      databaseURL: "https://socialcue-e1175.firebaseio.com",
+      storageBucket: "socialcue-e1175.appspot.com",
+      messagingSenderId: "717622171149"
+      };
+      firebase.initializeApp(config);
+  </script>
 
 </head>
 <body>
